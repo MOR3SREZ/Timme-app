@@ -44,27 +44,47 @@
   font-size: 2rem;
   background-color: #FEE440;
   border: none;
+  cursor: pointer;
+
  
 }
 
 .time{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 400px;
-  height: 100px;
   background-color: #FF865E;
   margin-top: 2rem;
+  justify-content: space-between;
+
   
+}
+.time-values{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1rem;
 }
 
 .time label{
-  margin-right: 5px;
+  margin-right: 1rem;
   font-weight: 600;
 }
 .time input{
   width: 35px;
   height: 35px;
+  border: none;
+  outline: none;
 }
-.hour .minute .second{
-  margin-left:10px ;
+
+.time button{
+  width:80%;
+  padding:10px 20px;
+  font-size: 1rem;
+  background-color: #FEE440;
+  border: none;
+  font-weight: 600;
+  margin: 1rem auto;
+  cursor: pointer;
 }
+

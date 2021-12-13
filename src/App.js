@@ -12,19 +12,21 @@ function App() {
       </div>
 
       <div className='time'>
-        <div className='hour'>
-          <label htmlFor='hour'>Hour</label>
-          <input type='text' name='hour' id='hour' />
+        <div className='time-values'>
+          <div className='hour'>
+            <label htmlFor='hour'>Hour</label>
+            <input type='text' name='hour' id='hour' />
+          </div>
+          <div className='minute'>
+            <label htmlFor='minute'>Minute</label>
+            <input type='text' name='minute' id='minute' />
+          </div>
+          <div className='second'>
+            <label htmlFor='second'>Second</label>
+            <input type='text' name='second' id='second' />
+          </div>
         </div>
-        <div className='minute'>
-          <label htmlFor='minute'>Minute</label>
-          <input type='text' name='minute' id='minute' />
-        </div>
-        <div className='second'>
-          <label htmlFor='second'>Second</label>
-          <input type='text' name='second' id='second' />
-          <button>ADD</button>
-        </div>
+        <button>ADD</button>
       </div>
     </div>
   );
